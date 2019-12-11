@@ -105,9 +105,11 @@ You can change the value of `APPNAME`, `AUTHOR`, and `APPVERSION` to your own.
 
 ```python
 ...
-APPNAME = "My Note"
-AUTHOR = "Dzulkifli Ananda"
+APPNAME = "PyTextEditor"
+AUTHOR = "Rully Ihza Mahendra"
+PyVersion = '3.8'
 APPVERSION = "1.0"
+MSG = 'A Simple and Awesmoe Text Editor in Python ' + PyVersion
 ...
 ```
 
