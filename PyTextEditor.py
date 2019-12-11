@@ -1,9 +1,12 @@
 import tkinter as tk
 from tkinter import filedialog
+from tkinter import messagebox
 
 APPNAME = "PyTextEditor"
 AUTHOR = "Rully Ihza Mahendra"
+PyVersion = '3.8'
 APPVERSION = "1.0"
+MSG = 'A Simple and Awesmoe Text Editor in Python ' + PyVersion
 
 
 class PyTextEditor:
@@ -43,7 +46,7 @@ class PyTextEditor:
         self.bind_shortcuts()
 
 
-    # Commands for Menubar
+    # Commands for Menubar File
     def set_window_title(self, name=None):
         if name:
             self.master.title(name + " - " + APPNAME)
@@ -112,7 +115,7 @@ class PyTextEditor:
         self.textarea.bind("<Control-o>", self.open_file)
         self.textarea.bind("<Control-s>", self.save_file)
         self.textarea.bind("<Control-S>", self.save_as_file)
-        self.textarea.bind("<Key>", )
+        self.textarea.bind("<Key>", self.statusbar.update_status)
 
 
 #####################################################################################
@@ -133,9 +136,24 @@ class Menubar:
         file_dropdown.add_separator()
         file_dropdown.add_command(label='Exit', command=parent.master.destroy, accelerator="Alt+F4")
 
+        about_dropdown = tk.Menu(menubar, font=font_specs, tearoff=0)
+        about_dropdown.add_command(label='Release Notes', command=self.show_release_notes)
+        about_dropdown.add_separator()
+        about_dropdown.add_command(label='About PyTextEditor', command=self.show_about_messagebox)
+
         menubar.add_cascade(label="File", menu=file_dropdown)
-
-
+        menubar.add_cascade(label="Help", menu=about_dropdown)
+    
+    def show_about_messagebox(self):
+        box_title = 'About PyTextEditor'
+        box_msg = MSG
+        messagebox.showinfo(box_title, box_msg)
+    
+    def show_release_notes(self):
+        box_title = 'Release NOTES'
+        box_msg = 'Version ' + APPVERSION + ' - ' + AUTHOR + " "
+        messagebox.showinfo(box_title, box_msg)
+    
 
 #####################################################################################
 ################################### Status Bar ######################################
@@ -154,7 +172,9 @@ class Statusbar:
 
     def update_status(self, *args):
         if isinstance(args[0], bool):
-            self.status.set("File Has Been Saved! - " + APPVERSION + " " + AUTHOR)
+            self.status.set("File Has Been Saved! - " + APPNAME + " " + APPVERSION + " | © " + AUTHOR)
+        else:
+            self.status.set(APPNAME + " " + APPVERSION + " | © " + AUTHOR + " - All Right Reserved.")
 
 
 
