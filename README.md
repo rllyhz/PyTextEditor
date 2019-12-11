@@ -97,7 +97,9 @@ Open file `PyTextEditor.py` and look at this lines of code:
 ...
 APPNAME = "PyTextEditor"
 AUTHOR = "Rully Ihza Mahendra"
+PyVersion = '3.8'
 APPVERSION = "0.1"
+MSG = 'A Simple and Awesmoe Text Editor in Python ' + PyVersion
 ...
 ```
 
@@ -105,10 +107,10 @@ You can change the value of `APPNAME`, `AUTHOR`, and `APPVERSION` to your own.
 
 ```python
 ...
-APPNAME = "PyTextEditor"
-AUTHOR = "Rully Ihza Mahendra"
+APPNAME = "Name Your App here"
+AUTHOR = "Your name Here"
 PyVersion = '3.8'
-APPVERSION = "1.0"
+APPVERSION = "What Version do you want to set?"
 MSG = 'A Simple and Awesmoe Text Editor in Python ' + PyVersion
 ...
 ```
