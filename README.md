@@ -1,4 +1,4 @@
-
+<a id="table-of-content"></a>
 ## Table of Contents
 
 | No | Content |
@@ -13,12 +13,19 @@
 
 
 <a id="introduction"></a>
-# Hello My Georgeous Friends in The Internet!
+# Hello My Georgeous Friends in The Internet ◕ ‿ ◕
 
 [Today](# "11 December 2019"), I created something awesome and want to share with yall. That's my first **Text Editor App** in `Python`. It is a `Text Editor` but not so complicated yet as another the most known text editor such as `Notepad`, `Sublime Text`, `Visual Studio Code`, etc. You can run this app in Windows, Linux and MacOs as well. I hope you enjoyed this app and please feel free to download it and share with your another gorgeous friends around the world! :)
 
-**Love yall** ~emotLove* :')
+**Love yall** ~emotLove* ❤ 
 
+<br />
+
+[**🡹 Go to top**](#introduction)
+
+[**🡹 Go to the Table of Contents**](#table-of-content)
+
+<br />
 
 <a id="env-setup"></a>
 ## Environment Setup
@@ -26,6 +33,15 @@
 As I mentioned before, this app is built using [`Python`](https://www.python.org/ "Python's Official Website") language. Highly recommended [`Python3.x`](https://docs.python.org/3/ "Python3.8") version. I don't recommend you to install [`Python2.x`](https://docs.python.org/2/ "Python 2.7.14 the last released") because this app was built using [`Python3.x`](https://docs.python.org/3/ "Python3.8") version. And the dependency was be using on it is only [`tkinter`](https://docs.python.org/3.8/library/tkinter.html "Tkinter Module") module which is a GUI module in [`Python`](https://www.python.org "Python's Official Website") language. Finally, if there is no [_Python Interpreter_](https://en.wikipedia.org/wiki/Python_(programming_language)) on your [OS](https://en.wikipedia.org/wiki/Operating_system) (Operatin System) then you have to install [`Python`](https://www.python.org/downloads/ "Download Here Now!") before continuing the steps below.
 
 _Luckily_, you don't have to install this module anymore due to it is built-in module in python already. So give thanks to the [`creator of Python`](https://en.wikipedia.org/wiki/Python_(programming_language) "Created by Guido van Rossum") language and let's get started!
+
+<br />
+
+[**🡹 Go to top**](#env-setup)
+
+[**🡹 Go to the Table of Contents**](#table-of-content)
+
+<br />
+
 
 <a id="how-to-run"></a>
 ## Let's play!
@@ -59,6 +75,14 @@ _Luckily_, you don't have to install this module anymore due to it is built-in m
 1. Hit enter again.
 1. And have fun!
 
+<br />
+
+[**🡹 Go to top**](#how-to-run)
+
+[**🡹 Go to the Table of Contents**](#table-of-content)
+
+<br />
+
 
 <a id="configuration"></a>
 ## Configuration For Yourself
@@ -87,6 +111,13 @@ APPVERSION = "1.0"
 ...
 ```
 
+<br />
+
+[**🡹 Go to top**](#configuration)
+
+[**🡹 Go to the Table of Contents**](#table-of-content)
+
+<br />
 
 
 <a id="file-source-code"></a>
@@ -107,6 +138,14 @@ Or you can click the '**Clone or download**' button available in this repo above
 
 <img src="clone_or_download.png">
 
+<br />
+
+[**🡹 Go to top**](#file-source-code)
+
+[**🡹 Go to the Table of Contents**](#table-of-content)
+
+<br />
+
 
 <a id="follow-me"></a>
 ## Thank You
@@ -117,7 +156,16 @@ If you love this project, please give me some loves and supports by visiting and
 - Instagram -> https://www.instagram.com/rllyhz/
 - Twitter -> ...
 
-**_Follow and stay tuned!!_**
+**_Follow me and stay tuned!!_**
+
+<br />
+
+[**🡹 Go to top**](#follow-me)
+
+[**🡹 Go to the Table of Contents**](#table-of-content)
+
+<br />
+
 
 <a id="references"></a>
 ## References
@@ -130,4 +178,11 @@ If you love this project, please give me some loves and supports by visiting and
 | Creator of Python | https://en.wikipedia.org/wiki/Python_(programming_language) |
 | Wikipedia | https://en.wikipedia.org/wiki/Operating_system |
 
+<br />
+
+[**🡹 Go to top**](#references)
+
+[**🡹 Go to the Table of Contents**](#table-of-content)
+
+<br />
 
