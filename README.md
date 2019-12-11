@@ -21,7 +21,7 @@
 
 <br />
 
-[**🡹 Go to top**](#introduction)
+[**🡹 Go to the top**](#introduction)
 
 [**🡹 Go to the Table of Contents**](#table-of-content)
 
@@ -36,7 +36,7 @@ _Luckily_, you don't have to install this module anymore due to it is built-in m
 
 <br />
 
-[**🡹 Go to top**](#env-setup)
+[**🡹 Go to the top**](#env-setup)
 
 [**🡹 Go to the Table of Contents**](#table-of-content)
 
@@ -77,7 +77,7 @@ _Luckily_, you don't have to install this module anymore due to it is built-in m
 
 <br />
 
-[**🡹 Go to top**](#how-to-run)
+[**🡹 Go to the top**](#how-to-run)
 
 [**🡹 Go to the Table of Contents**](#table-of-content)
 
@@ -113,7 +113,7 @@ APPVERSION = "1.0"
 
 <br />
 
-[**🡹 Go to top**](#configuration)
+[**🡹 Go to the top**](#configuration)
 
 [**🡹 Go to the Table of Contents**](#table-of-content)
 
@@ -140,7 +140,7 @@ Or you can click the '**Clone or download**' button available in this repo above
 
 <br />
 
-[**🡹 Go to top**](#file-source-code)
+[**🡹 Go to the top**](#file-source-code)
 
 [**🡹 Go to the Table of Contents**](#table-of-content)
 
@@ -160,7 +160,7 @@ If you love this project, please give me some loves and supports by visiting and
 
 <br />
 
-[**🡹 Go to top**](#follow-me)
+[**🡹 Go to the top**](#follow-me)
 
 [**🡹 Go to the Table of Contents**](#table-of-content)
 
@@ -180,7 +180,7 @@ If you love this project, please give me some loves and supports by visiting and
 
 <br />
 
-[**🡹 Go to top**](#references)
+[**🡹 Go to the top**](#references)
 
 [**🡹 Go to the Table of Contents**](#table-of-content)
 
