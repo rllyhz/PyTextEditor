@@ -63,11 +63,11 @@ _Luckily_, you don't have to install this module anymore due to it is built-in m
 <a id="configuration"></a>
 ## Configuration For Yourself
 
-Now, thiese are all you can do to this awesome app.
+Now, these are all you can do to this awesome app.
 
 ### Set The Name, The Author, and The Version of The App
 
-Open file PyTextEditor.py and look at this lines of code:
+Open file `PyTextEditor.py` and look at this lines of code:
 
 ```python
 ...
@@ -115,7 +115,7 @@ Or you can click the '**Clone or download**' button available in this repo above
 
 If you love this project, please give me some loves and supports by visiting and following my social media as well to look at some of my next awesome weekly projects, here:
 - Instagram -> https://www.instagram.com/rllyhz/
-- Twitter -> https://www.twitter.com/
+- Twitter -> ...
 
 **_Follow and stay tuned!!_**
 
@@ -126,4 +126,8 @@ If you love this project, please give me some loves and supports by visiting and
 | --- | --- |
 | Python | https://www.python.org/ |
 | Python | https://www.python.org/downloads/ |
-| Tkinter Module | https://www.python.org/ |
+| Tkinter Module | https://docs.python.org/3.8/library/tkinter.html |
+| Creator of Python | https://en.wikipedia.org/wiki/Python_(programming_language) |
+| Wikipedia | https://en.wikipedia.org/wiki/Operating_system |
+
+
